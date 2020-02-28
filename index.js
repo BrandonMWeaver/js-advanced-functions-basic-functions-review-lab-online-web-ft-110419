@@ -6,7 +6,7 @@ const mondayWork = function(activity = "go to the office") {
   return `This Monday, I will ${activity}.`;
 };
 
-function wrapAdjective(string1) {
+function wrapAdjective(string1 = '*') {
   return function(string2 = "special") {
     return `You are ${string2}`;
   };
