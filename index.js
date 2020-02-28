@@ -11,3 +11,9 @@ function wrapAdjective(string1 = '*') {
     return `You are ${string1}${string2}${string1}!`;
   };
 }
+
+const Calculator = {
+  function add(num1, num2) {
+    
+  }
+}
