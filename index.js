@@ -13,7 +13,7 @@ function wrapAdjective(string1 = '*') {
 }
 
 const Calculator = {
-  add = function(num1, num2) {
+  add: function(num1, num2) {
     
   }
-}
+};
