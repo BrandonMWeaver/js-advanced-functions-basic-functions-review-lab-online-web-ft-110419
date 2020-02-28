@@ -8,6 +8,6 @@ const mondayWork = function(activity = "go to the office") {
 
 function wrapAdjective(string1) {
   return function(string2 = "special") {
-    return `You are ${string}`;
+    return `You are ${string2}`;
   };
 }
