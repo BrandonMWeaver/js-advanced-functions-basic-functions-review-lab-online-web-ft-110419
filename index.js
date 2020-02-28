@@ -26,3 +26,8 @@ const Calculator = {
     return num1 / num2;
   }
 };
+
+function actionApplyer(start, array) {
+  let startingPoint = start;
+  
+}
