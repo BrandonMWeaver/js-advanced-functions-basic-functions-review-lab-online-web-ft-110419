@@ -29,10 +29,8 @@ const Calculator = {
 
 function actionApplyer(start, array) {
   let startingPoint = start;
-  
   for (let i = 0; i < array.length; i++) {
     startingPoint = array[i](startingPoint);
   }
-  
   return startingPoint;
 }
